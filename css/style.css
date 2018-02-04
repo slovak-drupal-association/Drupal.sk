@@ -185,7 +185,8 @@ strong {
   display: none;
 }
 #hide:checked + ul.menu {
-  display: block;
+  display: block !important;
+  position: relative;
 }
 h2,
 h3 {
