@@ -10,6 +10,8 @@ a:visited {
 .button,
 .drupalcamp a,
 .drupalcamp a:visited,
+.global a,
+.global a:visited,
 .meetups,
 .meetups a,
 .meetups a:visited,
@@ -334,6 +336,10 @@ footer {
   background-repeat: no-repeat,no-repeat;
   background-size: 400px,cover
 }
+.pane-title a,
+.twopercent-detail h3 a {
+  padding-top: 40px
+}
 @media (min-width:768px) {
   .hero h2 {
     font-size: 3.25em
@@ -425,6 +431,10 @@ footer {
   .global {
     background-position: bottom right 10%,top center;
     background-size: 540px,cover
+  }
+  .pane-title a,
+  .twopercent-detail h3 a {
+    padding-top: 66px;
   }
 }
 #menu-icon {
