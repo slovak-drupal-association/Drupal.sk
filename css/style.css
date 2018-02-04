@@ -244,8 +244,7 @@ h3 {
     top center/cover no-repeat #dcdcdc;
   color: #4e4e4e;
   text-align: center;
-  /* padding-top: 50px; */
-  /* padding-bottom: 50px; */
+  padding: 4em 0
 }
 .activities h2 {
   font-size: 2em
@@ -261,7 +260,8 @@ h3 {
     url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-gray-blueprint.png)
     top left #dcdcdc;
   color: #4e4e4e;
-  border-bottom: 50px solid #7cbc48
+  border-bottom: 50px solid #7cbc48;
+  padding: 4em 0
 }
 
 footer {
