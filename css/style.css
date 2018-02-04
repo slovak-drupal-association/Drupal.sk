@@ -115,7 +115,7 @@ strong {
   color: #fff;
   text-decoration: none
 }
-@media (min-width:0) and (max-width:1200px) {
+@media (min-width:0) and (max-width:1199px) {
   
   nav li {
     position: relative
@@ -181,6 +181,12 @@ strong {
 .logo {
   display: none
 }
+#hide {
+  display: none;
+}
+#hide:checked + ul.menu {
+  display: block;
+}
 h2,
 h3 {
   font-weight: 300
@@ -244,8 +250,7 @@ h3 {
     top center/cover no-repeat #dcdcdc;
   color: #4e4e4e;
   text-align: center;
-  /* padding-top: 50px; */
-  /* padding-bottom: 50px; */
+  padding: 4em 0
 }
 .activities h2 {
   font-size: 2em
@@ -261,7 +266,8 @@ h3 {
     url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-gray-blueprint.png)
     top left #dcdcdc;
   color: #4e4e4e;
-  border-bottom: 50px solid #7cbc48
+  border-bottom: 50px solid #7cbc48;
+  padding: 4em 0
 }
 
 footer {
@@ -442,9 +448,8 @@ footer {
   height: 40px;
   background: url(../images/menu-icon.png) center
 }
-@media only screen and (max-width:1200px) {
-  .logo,
-  nav:hover ul {
+@media only screen and (max-width:1199px) {
+  .logo {
     display: block
   }
   .logo {
