@@ -296,13 +296,13 @@ footer {
 .drupalcamp {
   padding: 6em 0;
   background-image:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/img-white-tools.png)
+    url(../images/dccs.jpg)
     ,
     url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-blueprint.jpg)
 ;
-  background-position: bottom center,top left;
+  background-position: center center 5%,top left;
   background-repeat: no-repeat,repeat;
-  background-size: 500px,auto;
+  background-size: 46.5%,auto;
   color: #fff;
 }
 .global,
@@ -357,7 +357,7 @@ footer {
     margin-right: auto
   }
   .drupalcamp {
-    background-position: bottom left -200px,top left
+    background-position: center left 5%,top left
   }
   .meetups {
     background-position: bottom left -160px;
@@ -370,7 +370,7 @@ footer {
 }
 @media (min-width:990px) {
   .drupalcamp {
-    background-position: bottom left -120px,top left
+    background-position: center left 5%,top left
   }
   .meetups {
     background-position: bottom left -80px
@@ -428,8 +428,8 @@ footer {
     white-space: nowrap
   }
   .drupalcamp {
-    background-position: bottom left 9%,top left;
-    background-size: 540px,auto
+    background-position: center left 8%,top left;
+    background-size: 44.5%,auto
   }
   .meetups {
     background-position: bottom left 10%;
