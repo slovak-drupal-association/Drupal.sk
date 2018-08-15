@@ -494,3 +494,172 @@ footer {
     background: #064771;
   }
 }
+
+
+/*thunder specific css*/
+
+.thunder .button,
+.thunder .drupalcamp a,
+.thunder .drupalcamp a:visited,
+.thunder .global a,
+.thunder .global a:visited,
+.thunder .meetups,
+.thunder .meetups a,
+.thunder .meetups a:visited,
+.thunder a.button:visited,
+.thunder footer a,
+.thunder footer a:active,
+.thunder footer a:visited,
+.thunder nav,
+.thunder nav a,
+.thunder nav a:visited {
+    color: #17161691
+}
+.thunder .hero h2,
+.thunder .twopercent-brief a,
+.thunder .twopercent-brief h2 {
+    color: #17161691;
+}
+.thunder .hero h3,
+body {
+color: #17161691;
+}
+.thunder .hero,
+body {
+    color: #17161691;
+}
+.thunder .hero-wrapper{
+	style
+	background-color: #ffffff75 
+}
+.thunder .hero h2 {
+    background: url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/css/panels/images/logo-d8.svg) top center/420px no-repeat;
+    margin-bottom: 0;
+    padding-top: 0
+}
+.thunder header {
+    background-color: #4eaef0;
+    padding: .5em 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999
+}
+.thunder .hero {
+    background: url(https://thunder.org/sites/default/files/styles/media_image/public/landing-page/background/images/sticker-apfel_0.jpg?h=43594a01&itok=XQazCrUl) top center/cover no-repeat #def1f8;
+    padding: 4em 0
+}
+.thunder .drupalcamp .button:focus,
+.thunder .drupalcamp .button:hover {
+    background-color: white;
+    color: #17161691;
+    text-decoration: none
+}
+.thunder .activities,
+.thunder .twopercent-detail {
+    background: none;
+    background-color: #f2f2f2;
+    color: #17161691;
+    text-align: center;
+    padding: 4em 0
+}
+.thunder .global {
+    background: url(https://thunder.org/sites/default/files/styles/media_image/public/landing-page/background/images/Bildschirmfoto%202017-09-08%20um%2010.13.26.png?h=3b1cdd41&itok=9CSgf0_M) top center/cover no-repeat #0678be;
+    color: #17161691
+}
+.thunder .twopercent-brief {
+    background: url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-gray-blueprint.png) top left #dcdcdc;
+    color: #17161691;
+    border-bottom: 50px solid #7cbc48;
+    padding: 4em 0
+}
+.thunder footer {
+    color: #17161691
+}
+.thunder .twopercent-brief a.button {
+    border: 2px solid #4e4e4e;
+    color: #17161691;
+    margin-bottom: 5px
+}
+.thunder .drupalcamp,
+footer {
+    background-color: #f2f2f2;
+}
+.thunder .drupalcamp {
+    padding: 6em 0;
+    background-image: none;
+    background-color: white;
+    background-position: top center;
+    background-repeat: no-repeat, repeat;
+    background-size: 1300px, auto;
+    color: #17161691
+}
+.thunder .activities-first h2 {
+    background: url(../images/OSS.png) top center/auto 100px no-repeat;
+    padding-top: 140px
+}
+.thunder .activities-second h2 {
+    background: url(../images/IGB.png) top center/auto 100px no-repeat;
+    padding-top: 140px
+}
+.thunder .activities-third h2 {
+    background: url(../images/MBE.png) top center/auto 100px no-repeat;
+    padding-top: 140px
+}
+.thunder .meetups {
+    background: none;
+    background-color: white
+}
+.thunder .global {
+    background-color: #0678be;
+    background-image: url(https://thunder.org/sites/default/files/styles/media_image/public/landing-page/background/images/Bildschirmfoto%202017-09-08%20um%2010.13.26.png?h=3b1cdd41&itok=9CSgf0_M) top center 1300px;
+    background-position: bottom -10% center, top center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1300px, cover
+}
+@media (min-width:768px) {
+  .thunder .meetups {
+     background-position: bottom left -160px;
+     background-size: 1000px
+  }
+  .thunder .global {
+     background-position: bottom right -180px, top center;
+     background-size: 1300px, cover
+  }
+}
+@media (max-width:767.99px) {
+  .thunder .hero h2 {
+        background: url(../images/thunder) center/420px no-repeat;
+        margin-bottom: 0;
+        padding-top: 300px
+  }
+}
+/*
+@media (min-width:768px) {
+  .thunder .hero h2 {
+        background: url(https://thunder.org/themes/custom/rumble/images/logo--white.png) center/520px no-repeat;
+        margin-bottom: 0;
+        padding-top: 300px
+  }
+}
+*/
+@media (min-width:1200px) {
+  .thunder .meetups {
+        background-position: bottom center 10%;
+        background-size: 1000px
+  }
+  .thunder .global {
+        background-position: top center;
+        background-size: 1900px, cover
+  }
+}
+@media (max-width:1000px) {
+  .thunder.drupalcamp {
+        background: url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-blueprint.jpg) repeat repeat
+  }
+  .thunder .global {
+        background: url(https://thunder.org/sites/default/files/styles/media_image/public/landing-page/background/images/Bildschirmfoto%202017-09-08%20um%2010.13.26.png?h=3b1cdd41&itok=9CSgf0_M) repeat repeat
+  }
+  .thunder .meetups {
+        background: white
+  }
+}
