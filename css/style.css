@@ -653,7 +653,7 @@ footer {
   }
 }
 @media (max-width:1000px) {
-  .thunder.drupalcamp {
+  .thunder .drupalcamp {
         background: url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-blueprint.jpg) repeat repeat
   }
   .thunder .global {
@@ -721,15 +721,88 @@ margin: 0px auto;
 padding-bottom: 50px;
 }
 
-.thunder 
-.thunder 
-.thunder 
-.thunder 
-
-
-
-
-
+/* Drupal Commerce specific css*/
+@media (max-width:767.99px) {
+  .commerce .hero h2 {
+    background: url(../images/c-logo.png) center/420px no-repeat;
+    margin-bottom: 0;
+    padding-top: 300px;
+  }
+  .commerce .drupalcamp {
+    background: url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-blueprint.jpg) repeat repeat !important;
+  }
+  .commerce .global {
+    background: #0678be;
+}
+  .commerce .meetups {
+    background: #064771;
+  }
+}
+@media (min-width:768px) {
+  .commerce .hero h2 {
+    background: url(../images/c-logo.png) center/520px no-repeat;
+    margin-bottom: 0;
+    padding-top: 300px;
+  }
+  .commerce .meetups {
+  background:
+    url(../images/who.png)
+    left center/500px no-repeat #064771
+  }
+  .commerce .global {
+  background:
+    url(../images/why.png)
+    top center/cover no-repeat #0678be;
+  color: #fff
+  }
+}
+.uvodny-text {
+  font-size: 18px;
+}
+.commerce-text {
+  display: block;
+  text-align: justify;
+}
+.commerce .activities-first h2 {
+  background:
+    url(../images/obsah-obchod.png)
+    top center/auto 120px no-repeat;
+  padding-top: 140px
+}
+.commerce .activities-second h2 {
+  background:
+    url(../images/flexibilita.png)
+    top center/auto 120px no-repeat;
+  padding-top: 140px
+}
+.commerce .activities-third h2 {
+  background:
+    url(../images/open-source.png)
+    top center/auto 120px no-repeat;
+  padding-top: 140px
+}
+.commerce .drupalcamp {
+  padding: 6em 0;
+  background-image:
+    url(../images/commerce.png)
+    ,
+    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-blueprint.jpg)
+;
+  background-repeat: no-repeat,repeat;
+  background-size: 500px,auto;
+  color: #fff;
+}
+.preco-commerce-text {
+  display: block;
+  text-align: justify;
+}
+.meetups-text {
+  display: block;
+  text-align: justify;
+}
+.pata {
+  background-color: #0678be;
+}
 
 
 
