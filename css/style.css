@@ -199,6 +199,9 @@ header {
   width: 100%;
   z-index: 999
 }
+nav .menu {
+  text-align: center;
+}
 nav .menu a {
   text-decoration: none
 }
@@ -226,7 +229,7 @@ h3 {
 }
 .hero {
   background:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-ltblue-city.jpg)
+    url(../images/bg-ltblue-city.jpg)
     top center/cover no-repeat #def1f8;
   padding: 4em 0
 }
@@ -247,7 +250,7 @@ h3 {
 .activities,
 .twopercent-detail {
   background:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-gray-city.jpg)
+    url(../images/bg-gray-city.jpg)
     top center/cover no-repeat #dcdcdc;
   color: #4e4e4e;
   text-align: center;
@@ -258,13 +261,13 @@ h3 {
 }
 .global {
   background:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-city.jpg)
+    url(../images/bg-blue-city.jpg)
     top center/cover no-repeat #0678be;
   color: #fff
 }
 .twopercent-brief {
   background:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-gray-blueprint.png)
+    url(../images/bg-gray-blueprint.png)
     top left #dcdcdc;
   color: #4e4e4e;
   border-bottom: 50px solid #7cbc48;
@@ -296,9 +299,9 @@ footer {
 .drupalcamp {
   padding: 6em 0;
   background-image:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/img-white-tools.png)
+    url(../images/img-white-tools.png)
     ,
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-blueprint.jpg)
+    url(../images/blueprint-bg.png)
 ;
   background-position: bottom center,top left;
   background-repeat: no-repeat,repeat;
@@ -311,33 +314,33 @@ footer {
 }
 .activities-first h2 {
   background:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/icon-authoring-editors.png)
+    url(../images/icon-authoring-editors.png)
     top center/auto 120px no-repeat;
   padding-top: 140px
 }
 .activities-second h2 {
   background:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/icon-authoring-everyone.png)
+    url(../images/icon-authoring-everyone.png)
     top center/auto 120px no-repeat;
   padding-top: 140px
 }
 .activities-third h2 {
   background:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/icon-authoring-admins.png)
+    url(../images/icon-authoring-admins.png)
     top center/auto 120px no-repeat;
   padding-top: 140px
 }
 .meetups {
   background:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/img-white-deployment.png)
+    url(../images/img-white-deployment.png)
     bottom center/400px no-repeat #064771
 }
 .global {
   background-color: #0678be;
   background-image:
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/img-ltgray-multilingual.png)
+    url(../images/img-ltgray-multilingual.png)
     ,
-    url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-city.jpg)
+    url(../images/bg-blue-city.jpg)
 ;
   background-position: bottom -10% center,top center;
   background-repeat: no-repeat,no-repeat;
@@ -357,7 +360,7 @@ footer {
     margin-right: auto
   }
   .drupalcamp {
-    background-position: bottom left -200px,top left
+    background-position: bottom left -200px
   }
   .meetups {
     background-position: bottom left -160px;
@@ -370,7 +373,7 @@ footer {
 }
 @media (min-width:990px) {
   .drupalcamp {
-    background-position: bottom left -120px,top left
+    background-position: bottom left -120px
   }
   .meetups {
     background-position: bottom left -80px
@@ -412,7 +415,7 @@ footer {
   nav .first a {
     text-indent: -9999px;
     background:
-      url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/icon-w-drupal.svg)
+      url(../images/icon-w-drupal.svg)
       center center/contain no-repeat;
     display: inline-block;
     height: 50px;
@@ -428,7 +431,7 @@ footer {
     white-space: nowrap
   }
   .drupalcamp {
-    background-position: bottom left 9%,top left;
+    background-position: bottom left 9%;
     background-size: 540px,auto
   }
   .meetups {
@@ -485,10 +488,10 @@ footer {
 
 @media (max-width:767.99px) {
   .drupalcamp {
-    background: url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-blueprint.jpg) repeat repeat;
+    background: url(../images/blueprint-bg.png) repeat repeat;
   }
   .global {
-    background: url(https://www.drupal.org/sites/all/themes/drupalorg_themes/blueprint/images/bg-blue-city.jpg) repeat repeat;
+    background: url(../images/bg-blue-city.jpg) repeat repeat;
   }
   .meetups {
     background: #064771;
